@@ -21,7 +21,8 @@ function getWinner(userChoise: Choise, computerChoise: Choise) {
   }
 }
 
-
+const roundValue = document.getElementById("rounds") as HTMLSelectElement;
+const roundNumber = Number (roundValue.value)
 
 
 function playRound(rounds: number){
@@ -31,8 +32,17 @@ function playRound(rounds: number){
   scoreDiv!.innerHTML = ""
 
   const computerChoise = getComputerChoise();
+  scoreDiv!.innerHTML += `Computer: ${computerChoise}`;
 
-  
+  const userChoise = 
+
+  const result = getWinner(userChoise, computerChoise) 
+
+  if(result === "Du hast Gewonnen") {
+    userScore++
+  } else if (result === )
+
+
 
 
 
