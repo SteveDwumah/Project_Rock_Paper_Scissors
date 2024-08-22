@@ -24,5 +24,5 @@ paper?.addEventListener("click", (event: Event)=>{
 
 //# retrun
 const restart = document.getElementById("restart") as HTMLElement
-
 restart.addEventListener("click",()=>{})
+
