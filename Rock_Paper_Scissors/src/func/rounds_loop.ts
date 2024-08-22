@@ -1,6 +1,6 @@
 
 function playRound(){
-let(let index = 0;roundNumber){
+let(let index = 0; roundNumber; ){
     getWinner{}
 }
 
